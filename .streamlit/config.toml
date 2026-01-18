@@ -1,0 +1,35 @@
+[theme]
+primaryColor = "#0066cc"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f0f2f6"
+textColor = "#262730"
+font = "sans serif"
+
+[client]
+showErrorDetails = true
+
+[logger]
+level = "info"
+
+[server]
+maxUploadSize = 200
+enableXsrfProtection = true
+```
+
+#### **4. 你已经有 `app.py` 了吗？**
+
+如果没有，把之前的 Streamlit UI 代码复制成 `app.py`
+
+---
+
+### **第二步：验证文件结构**
+
+你的文件夹应该是这样：
+```
+C:\Users\CRJ\OmniAgent\
+├── app.py                 ✅
+├── requirements.txt       ✅
+├── .gitignore            ✅
+├── README.md             ✅（已有）
+└── .streamlit/
+    └── config.toml       ✅
