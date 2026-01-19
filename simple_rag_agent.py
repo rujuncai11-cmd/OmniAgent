@@ -24,7 +24,7 @@ import torch
 # ======================== 配置 ========================
 KNOWLEDGE_BASE_PATH = r"D:\HF_models\knowledge_base"
 FAISS_INDEX_PATH = r"D:\HF_models\faiss_index"
-MODEL_ID = "Qwen/Qwen2.5-3B-Instruct"
+MODEL_ID = "Qwen/Qwen2.5-1.5B-Instruct"
 CACHE_DIR = r"D:\HF_models"
 
 CHUNK_SIZE = 600
